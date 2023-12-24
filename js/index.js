@@ -11,11 +11,9 @@ SmoothScroll({
     touchpadSupport   : true,
 })
 
-// script.js
 
 
 
-  <script>
   $(document).ready(function() {
     $("[data-fancybox]").fancybox({
       animationEffect: "fade",
@@ -26,4 +24,3 @@ SmoothScroll({
       }
     });
   });
-</script>
